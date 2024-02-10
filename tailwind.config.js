@@ -16,8 +16,11 @@ export default {
     },
       spacing : {
         '580px':'580px',
-        '980px' : '980px',
-        '1550px':'1550px'
+        '980px' :'980px',
+        '1550px':'1550px',
+        '420px':'420px',
+        '440px':'480px',
+        '363px':'363px'
     },
       container : {
         padding: '',
