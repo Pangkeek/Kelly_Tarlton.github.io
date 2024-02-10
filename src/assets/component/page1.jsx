@@ -35,7 +35,6 @@ export default function Page1() {
           className="-rotate-31deg w-270px h-auto absolute top-96"
           src=".\src\assets\media\iPhone 12 Pro-3.png"
         />
-        <p>TESTT</p>
       </div>
     </div>
   );
