@@ -39,8 +39,16 @@ export default function Page1() {
           className="-rotate-60deg w-520px h-auto absolute top-96 -right-72"
           src=".\src\assets\media\iPhone 12 Pro-12.png"
         />
-        <img className='-rotate-31deg w-270px h-auto absolute -bottom-363px right-440px' src='.\src\assets\media\iPhone 12 Pro-2.png'/>
+        <img
+          className="-rotate-31deg w-270px h-auto absolute -bottom-363px right-440px"
+          src=".\src\assets\media\iPhone 12 Pro-2.png"
+        />
+        <img
+          className="-rotate-31deg w-270px h-auto absolute right-800px"
+          src=".\src\assets\media\iPhone 12 Pro-1.png"
+        />
       </div>
+      
     </div>
   );
 }
