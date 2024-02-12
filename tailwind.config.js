@@ -26,7 +26,10 @@ export default {
       container : {
         padding: '',
 
-    }
+    },
+      padding : {
+        '170px':'158px'
+      }
   },
   plugins: [],
 }
