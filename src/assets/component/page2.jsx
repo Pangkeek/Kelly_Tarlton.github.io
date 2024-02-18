@@ -33,10 +33,27 @@ export default function Page2() {
           Cards.
         </p>
       </div>
-      <div className='flex h-auto gradiant-radial'>
-        <img className='w-80 relative left-' src='.\src\assets\media\iPhone 12 Pro-1.png'/>
-        <img className='w-80 relative' src='.\src\assets\media\iPhone 12 Pro-2.png'/>
-        <img className='w-80 relative' src='.\src\assets\media\iPhone 12 Pro.png'/>
+      <div>
+        <div className="flex h-auto gradiant-radial pt-28 pb-64">
+          <img
+            className="w-80 relative left-850px"
+            src=".\src\assets\media\iPhone 12 Pro-1.png"
+          />
+          <img
+            className="w-80 relative left-72 top-40 z-10"
+            src=".\src\assets\media\iPhone 12 Pro-2.png"
+          />
+          <img
+            className="w-80 relative right-64"
+            src=".\src\assets\media\iPhone 12 Pro.png"
+          />
+        </div>
+        <div className="pb-10">
+          <h1 className="text-white text-center text-xl">
+            Refine your experiance in Kelly Tarlton's Sea Life with a<br />
+            interactive AR experiance.
+          </h1>
+        </div>
       </div>
     </div>
   );

@@ -21,7 +21,8 @@ export default {
         '420px':'420px',
         '440px':'480px',
         '363px':'363px',
-        '800px':'800px'
+        '800px':'800px',
+        '850px':'850px'
     },
       container : {
         padding: '',
