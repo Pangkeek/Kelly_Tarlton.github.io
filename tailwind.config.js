@@ -29,7 +29,8 @@ export default {
 
     },
       padding : {
-        '170px':'158px'
+        '158px':'158px',
+        'xd':''
       }
   },
   plugins: [],

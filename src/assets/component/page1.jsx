@@ -9,7 +9,7 @@ export default function Page1() {
           src=".\src\assets\media\Icon3.png"
           alt="logo"
         />
-        <h1 className="text-white text-7xl">
+        <h1 className="text-white text-7xl Medium">
           Kelly Tarlton's
           <br />
           Teasure Hunt

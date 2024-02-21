@@ -10,3 +10,47 @@ body {
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(23,23,23,1) 43%);
 }
+
+@font-face {
+    font-family: 'Ultra-light';
+    src: url('.\assets\font\FontsFree-Net-SFProDisplay-Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url('.\assets\font\FontsFree-Net-SFProDisplay-Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('.\assets\font\SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url('.\assets\font\SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.Light{
+    font-family: 'Light';
+    letter-spacing: 0.75px;
+}
+
+.Regular{
+    font-family: 'Regular'
+}
+
+.Medium{
+    font-family: 'Medium'
+}
+

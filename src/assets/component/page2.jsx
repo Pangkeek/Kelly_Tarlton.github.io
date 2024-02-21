@@ -3,10 +3,10 @@ import React from "react";
 export default function Page2() {
   return (
     <div className="container mx-auto bg-neutral-900">
-      <p className="pl-170px pb-8 text-xl text-zinc-400">About</p>
-      <div className="text-white flex justify-around">
+      <p className="pl-158px pb-8 text-xl text-zinc-400 Regular">About</p>
+      <div className="text-white flex justify-around Light">
         <p className="text-white text-xl text-left">
-          i were given a task of
+          I were given a task of
           <br />
           developing a<br />
           Augmented Reality
@@ -49,7 +49,7 @@ export default function Page2() {
           />
         </div>
         <div className="pb-10">
-          <h1 className="text-white text-center text-xl">
+          <h1 className="text-white text-center text-xl Regular">
             Refine your experiance in Kelly Tarlton's Sea Life with a<br />
             interactive AR experiance.
           </h1>
