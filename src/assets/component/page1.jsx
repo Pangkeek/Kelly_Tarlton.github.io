@@ -3,7 +3,7 @@ import React from "react";
 export default function Page1() {
   return (
     <div className="container mx-auto relative overflow-hidden flex">
-      <div className="h-screen w-1/2 bg-neutral-900 flex flex-col	items-center justify-center z-40">
+      <div className="h-screen w-1/2 bg-[#21211e] flex flex-col	items-center justify-center z-40">
         <img
           className="size-96"
           src=".\src\assets\media\Icon3.png"

@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Page3() {
   return (
-    <div className="container mx-auto bg-neutral-900 flex">
+    <div className="container mx-auto bg-[#21211e] flex">
       <div className="w-1/2 pl-158px">
-        <p className="text-zinc-400 text-xl pb-6 Regular">Context</p>
+        <p className="text-zinc-400 text-2xl pb-6 Regular">Context</p>
         <p className="text-white text-xl Light">
           Kelly Tarlton's Life is founded by Kelvin Ewart
           <br />
@@ -22,7 +22,7 @@ export default function Page3() {
         </p>
       </div>
       <div className="w-1/2 pl-158px">
-        <p className="text-zinc-400 text-xl pb-6 Medium">Target Consumer</p>
+        <p className="text-zinc-400 text-2xl pb-6 Medium">Target Consumer</p>
         <p className="text-white text-xl Light">
           On the official Kelly Tarlton's website, they started
           <br />

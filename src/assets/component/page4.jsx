@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Page4() {
   return (
-    <div className="container mx-auto bg-neutral-900 flex">
+    <div className="container mx-auto bg-[#21211e] flex">
       <div className="w-1/2 pl-158px">
-        <p className="text-zinc-400 text-xl pb-6 Regular">User Interview</p>
+        <p className="text-zinc-400 text-2xl pb-6 Regular">User Interview</p>
         <p className="text-white text-xl Light">
           For the research process, I decided to go to Kelly
           <br />
@@ -22,7 +22,7 @@ export default function Page4() {
         </p>
       </div>
       <div className="w-1/2 pl-158px">
-        <p className="text-zinc-400 text-xl pb-6 Medium">Understanding</p>
+        <p className="text-zinc-400 text-2xl pb-6 Medium">Understanding</p>
         <p className="text-white text-xl Light">
           The most important findings from this interview are:
           <br />

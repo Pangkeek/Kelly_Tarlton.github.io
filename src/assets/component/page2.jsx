@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Page2() {
   return (
-    <div className="container mx-auto bg-neutral-900">
-      <p className="pl-158px pb-8 text-xl text-zinc-400 Regular">About</p>
+    <div className="container mx-auto bg-[#21211e]">
+      <p className="pl-158px pb-8 text-2xl text-zinc-400 Regular">About</p>
       <div className="text-white flex justify-around Light">
         <p className="text-white text-xl text-left">
           I were given a task of

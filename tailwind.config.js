@@ -12,7 +12,9 @@ export default {
     },
       width : {
         '520px':'520px',
-        '270px':'270px'
+        '270px':'270px',
+        '267px':'267px',
+        '365px':'365px'
     },
       spacing : {
         '580px':'580px',
