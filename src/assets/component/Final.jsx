@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from './navbar'
 import Intro from './intro';
 import Page1 from "./page1";
 import Page2 from "./page2";
@@ -9,10 +10,12 @@ import Page6 from './page6';
 import Page7 from './page7';
 import Outtro from './outtro'
 import Start from './start';
+import Copyright from './copyright';
 
 export default function Final() {
   return (
     <div className="">
+      <Navbar />
       <Intro />
       <Page1 />
       <section class="container mx-auto py-10 bg-[#21211e]">
@@ -44,6 +47,7 @@ export default function Final() {
       </section>
       <Outtro />
       <Start />
+      <Copyright />
     </div>
   );
 }

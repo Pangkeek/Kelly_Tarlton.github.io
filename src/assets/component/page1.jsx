@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 export default function Page1() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="container mx-auto relative overflow-hidden flex">
       <div className="h-screen w-1/2 bg-[#21211e] flex flex-col	items-center justify-center z-40">
@@ -8,13 +15,15 @@ export default function Page1() {
           className="size-96"
           src=".\src\assets\media\Icon3.png"
           alt="logo"
+          data-aos="fade-right"
+          data-aos-duration='1000'
         />
-        <h1 className="text-white text-7xl Medium">
+        <h1 className="text-white text-7xl Medium" data-aos="fade-down" data-aos-duration='850'>
           Kelly Tarlton's
           <br />
           Teasure Hunt
         </h1>
-        <p className="text-white text-xl mt-9">
+        <p className="text-white text-xl mt-9" data-aos="fade-down" data-aos-duration='850'>
           Let's Start Hunting Augmented Reality Sea Life!
         </p>
       </div>
@@ -48,7 +57,6 @@ export default function Page1() {
           src=".\src\assets\media\iPhone 12 Pro-1.png"
         />
       </div>
-      
     </div>
   );
 }

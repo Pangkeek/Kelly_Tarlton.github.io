@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 export default function Page2() {
+  
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="container mx-auto bg-[#21211e]">
-      <p className="pl-158px pb-8 text-2xl text-zinc-400 Regular">About</p>
+      <p className="pl-158px pb-8  text-xl sm:text-xs md:text-xl lg:text-2xl  text-zinc-400 Regular">About</p>
       <div className="text-white flex justify-around Light">
-        <p className="text-white text-xl text-left">
+        <p className="text-white text-xl text-left" data-aos='fade-down' data-aos-duration='850'>
           I were given a task of
           <br />
           developing a<br />
@@ -15,7 +22,7 @@ export default function Page2() {
           <br />
           Tarlton's Sea Life
         </p>
-        <p className="text-white text-xl text-center">
+        <p className="text-white text-xl text-center" data-aos='fade-down' data-aos-duration='850' data-aos-delay='150'>
           This app provide an
           <br />
           alternative experiance of <br />
@@ -25,7 +32,7 @@ export default function Page2() {
           <br />
           Tralton's Sea Life.
         </p>
-        <p className="text-white text-xl text-right">
+        <p className="text-xl text-right" data-aos='fade-down' data-aos-duration='850' data-aos-delay='250'>
           Scanning AR posters
           <br />
           unlocks information
@@ -36,20 +43,27 @@ export default function Page2() {
       <div>
         <div className="flex h-auto gradiant-radial pt-28 pb-64">
           <img
-            className="w-80 relative left-850px"
+            className="w-xd relative left-ha"
             src=".\src\assets\media\iPhone 12 Pro-1.png"
+            data-aos='fade-down'
+            data-aos-duration='850'
+            data-aos-delay='200'
           />
           <img
-            className="w-80 relative left-72 top-40 z-10"
+            className="w-xd relative left-haaa top-40 z-10"
             src=".\src\assets\media\iPhone 12 Pro-2.png"
+            data-aos='fade-up'
+            data-aos-duration='850'
           />
           <img
-            className="w-80 relative right-64"
+            className="w-xd relative right-haa"
             src=".\src\assets\media\iPhone 12 Pro.png"
+            data-aos='fade-down'
+            data-aos-duration='850'
           />
         </div>
         <div className="pb-10">
-          <h1 className="text-white text-center text-xl Regular">
+          <h1 className="text-white text-center  text-base sm:text-xs md:text-xl lg:text-xl  Regular" data-aos='fade' data-aos-duration='2000'>
             Refine your experiance in Kelly Tarlton's Sea Life with a<br />
             interactive AR experiance.
           </h1>
