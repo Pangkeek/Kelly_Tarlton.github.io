@@ -7,5 +7,5 @@ export default defineConfig({
     base: '/Kelly_Tarlton.github.io/',
     assetsInlineLimit: 0,
   },
-  assetsDir: './assets/media', // Set the appropriate assets directory
+  assetsDir: './assets/media',
 });

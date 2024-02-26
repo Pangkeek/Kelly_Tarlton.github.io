@@ -13,7 +13,7 @@ export default function Page1() {
       <div className="h-screen w-1/2 bg-[#21211e] flex flex-col	items-center justify-center z-40">
         <img
           className="size-96"
-          src=".\src\assets\media\Icon3.png"
+          src='.\src\assets\media\Icon3.png'
           alt="logo"
           data-aos="fade-right"
           data-aos-duration='1000'
