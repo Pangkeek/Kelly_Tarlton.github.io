@@ -22,28 +22,28 @@ body {
 
 @font-face {
     font-family: 'Ultra-light';
-    src: url('.\assets\FontsFree-Net-SFProDisplay-Light.ttf') format('opentype');
+    src: url('./assets/FontsFree-Net-SFProDisplay-Light.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Light';
-    src: url('.\assets\FontsFree-Net-SFProDisplay-Light.ttf') format('opentype');
+    src: url('./assets/FontsFree-Net-SFProDisplay-Light.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Regular';
-    src: url('.\assets\SFPRODISPLAYREGULAR.OTF') format('opentype');
+    src: url('./assets/SFPRODISPLAYREGULAR.OTF') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Medium';
-    src: url('.\assets\SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    src: url('./assets/SFPRODISPLAYMEDIUM.OTF') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
