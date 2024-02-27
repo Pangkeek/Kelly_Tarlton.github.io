@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import AOS from "aos";
 import 'aos/dist/aos.css'
+import Img1 from './iPhone 12 Pro-1.png'
+import Img2 from './iPhone 12 Pro-2.png'
+import Img0 from './iPhone 12 Pro.png'
 
 export default function Page2() {
   
@@ -44,20 +47,20 @@ export default function Page2() {
         <div className="flex h-auto gradiant-radial pt-28 pb-64">
           <img
             className="w-xd relative left-ha"
-            src=".\src\assets\iPhone 12 Pro-1.png"
+            src={Img1}
             data-aos='fade-down'
             data-aos-duration='850'
             data-aos-delay='200'
           />
           <img
             className="w-xd relative left-haaa top-40 z-10"
-            src=".\src\assets\iPhone 12 Pro-2.png"
+            src={Img2}
             data-aos='fade-up'
             data-aos-duration='850'
           />
           <img
             className="w-xd relative right-haa"
-            src=".\src\assets\iPhone 12 Pro.png"
+            src={Img0}
             data-aos='fade-down'
             data-aos-duration='850'
           />

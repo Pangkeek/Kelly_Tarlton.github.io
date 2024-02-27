@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import AOS from "aos";
 import 'aos/dist/aos.css'
+import Img5 from './iPhone 12 Pro-5.png'
+import Img4 from './iPhone 12 Pro-4.png'
+import Img3 from './iPhone 12 Pro-3.png'
 
 export default function Page7() {
   
@@ -45,9 +48,9 @@ export default function Page7() {
           </div>
         </div>
         <div className='flex items-end justify-between'>
-            <img className='w-xdd object-cover h-full ml-bo' src='.\src\assets\iPhone 12 Pro-5.png' data-aos='fade-left' data-aos-duration='850'/>
-            <img className='w-xddd object-cover h-full ' src='.\src\assets\iPhone 12 Pro-4.png' data-aos='fade-left' data-aos-duration='850'/>
-            <img className='w-xdddd object-cover h-full mr-bo' src='.\src\assets\iPhone 12 Pro-3.png' data-aos='fade-left' data-aos-duration='850'/>
+            <img className='w-xdd object-cover h-full ml-bo' src={Img5} data-aos='fade-left' data-aos-duration='850'/>
+            <img className='w-xddd object-cover h-full ' src={Img4} data-aos='fade-left' data-aos-duration='850'/>
+            <img className='w-xdddd object-cover h-full mr-bo' src={Img3} data-aos='fade-left' data-aos-duration='850'/>
         </div>
       </div>
     </div>

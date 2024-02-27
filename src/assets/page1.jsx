@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css'
+import Icon3 from './Icon3.png'
+import Img19 from './iPhone 12 Pro-19.png'
+import Img10 from './iPhone 12 Pro-10.png'
+import Img1 from './iPhone 12 Pro-1.png'
+import Img3 from './iPhone 12 Pro-3.png'
+import Img12 from './iPhone 12 Pro-12.png'
+import Img2 from './iPhone 12 Pro-2.png'
 
 export default function Page1() {
 
@@ -13,7 +20,7 @@ export default function Page1() {
       <div className="h-screen w-1/2 bg-[#21211e] flex flex-col	items-center justify-center z-40">
         <img
           className="size-96"
-          src='.\src\assets\Icon3.png'
+          src={Icon3}
           alt="logo"
           data-aos="fade-right"
           data-aos-duration='1000'
@@ -30,31 +37,31 @@ export default function Page1() {
       <div className="h-screen w-1/2 flex items-center justify-center">
         <img
           className="-rotate-60deg absolute left-580px -top-52 w-520px h-auto"
-          src=".\src\assets\iPhone 12 Pro-19.png"
+          src={Img19}
         />
         <img
           className="-rotate-60deg w-520px h-auto absolute -top-52 left-980px"
-          src=".\src\assets\iPhone 12 Pro-10.png"
+          src={Img10}
         />
         <img
           className="w-270px h-auto -rotate-31deg absolute -top-20 left-1550px"
-          src=".\src\assets\iPhone 12 Pro-1.png"
+          src={Img1}
         />
         <img
           className="-rotate-31deg w-270px h-auto absolute top-420px right-56"
-          src=".\src\assets\iPhone 12 Pro-3.png"
+          src={Img3}
         />
         <img
           className="-rotate-60deg w-520px h-auto absolute top-96 -right-72"
-          src=".\src\assets\iPhone 12 Pro-12.png"
+          src={Img12}
         />
         <img
           className="-rotate-31deg w-270px h-auto absolute -bottom-363px right-440px"
-          src=".\src\assets\iPhone 12 Pro-2.png"
+          src={Img2}
         />
         <img
           className="-rotate-31deg w-270px h-auto absolute right-800px"
-          src=".\src\assets\iPhone 12 Pro-1.png"
+          src={Img1}
         />
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AOS from "aos";
 import 'aos/dist/aos.css'
+import Lui from './Rectangle 29.png'
 
 export default function Page5() {
   
@@ -17,7 +18,7 @@ export default function Page5() {
       </div>
       <div className="flex">
         <div className="w-1/2 pl-158px">
-          <img src=".\src\assets\Rectangle 29.png" data-aos='fade-right' data-aos-duration='850'/>
+          <img src={Lui} data-aos='fade-right' data-aos-duration='850'/>
         </div>
         <div className="w-1/2 pl-158px pt-14">
           <p className="text-zinc-400 text-2xl pb-6 Light">Personality</p>
