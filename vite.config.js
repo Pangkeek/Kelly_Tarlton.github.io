@@ -1,7 +1,12 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Kelly_Tarlton.github.io/'
-});
+  build : {
+    outDir:'dist',
+  },
+  base:'/Kelly_Tarlton.github.io/'
+})
+
