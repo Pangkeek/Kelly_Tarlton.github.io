@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import video1 from '../0224.mp4';
+import video1 from './0224.mp4';
 
 export default function Intro() {
   return (
