@@ -56,7 +56,7 @@ export default function Page1() {
           src={Img12}
         />
         <img
-          className="-rotate-31deg w-270px h-auto absolute -bottom-363px right-440px"
+          className="-rotate-31deg w-270px h-auto absolute top-800px right-440px"
           src={Img2}
         />
         <img
