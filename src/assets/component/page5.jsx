@@ -17,7 +17,7 @@ export default function Page5() {
       </div>
       <div className="flex">
         <div className="w-1/2 pl-158px">
-          <img src=".\src\assets\media\Rectangle 29.png" data-aos='fade-right' data-aos-duration='850'/>
+          <img src=".\src\assets\Rectangle 29.png" data-aos='fade-right' data-aos-duration='850'/>
         </div>
         <div className="w-1/2 pl-158px pt-14">
           <p className="text-zinc-400 text-2xl pb-6 Light">Personality</p>

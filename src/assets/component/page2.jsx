@@ -44,20 +44,20 @@ export default function Page2() {
         <div className="flex h-auto gradiant-radial pt-28 pb-64">
           <img
             className="w-xd relative left-ha"
-            src=".\src\assets\media\iPhone 12 Pro-1.png"
+            src=".\src\assets\iPhone 12 Pro-1.png"
             data-aos='fade-down'
             data-aos-duration='850'
             data-aos-delay='200'
           />
           <img
             className="w-xd relative left-haaa top-40 z-10"
-            src=".\src\assets\media\iPhone 12 Pro-2.png"
+            src=".\src\assets\iPhone 12 Pro-2.png"
             data-aos='fade-up'
             data-aos-duration='850'
           />
           <img
             className="w-xd relative right-haa"
-            src=".\src\assets\media\iPhone 12 Pro.png"
+            src=".\src\assets\iPhone 12 Pro.png"
             data-aos='fade-down'
             data-aos-duration='850'
           />

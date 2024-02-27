@@ -24,10 +24,10 @@ export default function Page6() {
             <br />
             be improve upon for kids and children's interact.
           </p>
-          <img src='.\src\assets\media\bord1.png'  data-aos='fade-right' data-aos-duration='850' data-aos-delay='200'/>
+          <img src='.\src\assets\bord1.png'  data-aos='fade-right' data-aos-duration='850' data-aos-delay='200'/>
         </div>
         <div className="w-1/2">
-          <img src='.\src\assets\media\bord2.png' data-aos='fade-right' data-aos-duration='850'/>
+          <img src='.\src\assets\bord2.png' data-aos='fade-right' data-aos-duration='850'/>
           <p className="text-zinc-400 text-xl Light text-right pr-40 pt-3" data-aos='fade' data-aos-duration='500'>Current information display in Kelly Tarlton's Sea Life</p>
         </div>
       </div>

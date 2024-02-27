@@ -45,9 +45,9 @@ export default function Page7() {
           </div>
         </div>
         <div className='flex items-end justify-between'>
-            <img className='w-xdd object-cover h-full ml-bo' src='.\src\assets\media\iPhone 12 Pro-5.png' data-aos='fade-left' data-aos-duration='850'/>
-            <img className='w-xddd object-cover h-full ' src='.\src\assets\media\iPhone 12 Pro-4.png' data-aos='fade-left' data-aos-duration='850'/>
-            <img className='w-xdddd object-cover h-full mr-bo' src='.\src\assets\media\iPhone 12 Pro-3.png' data-aos='fade-left' data-aos-duration='850'/>
+            <img className='w-xdd object-cover h-full ml-bo' src='.\src\assets\iPhone 12 Pro-5.png' data-aos='fade-left' data-aos-duration='850'/>
+            <img className='w-xddd object-cover h-full ' src='.\src\assets\iPhone 12 Pro-4.png' data-aos='fade-left' data-aos-duration='850'/>
+            <img className='w-xdddd object-cover h-full mr-bo' src='.\src\assets\iPhone 12 Pro-3.png' data-aos='fade-left' data-aos-duration='850'/>
         </div>
       </div>
     </div>
