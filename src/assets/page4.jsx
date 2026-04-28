@@ -9,8 +9,8 @@ export default function Page4() {
   }, []);
 
   return (
-    <div className="container mx-auto bg-[#21211e] flex">
-      <div className="w-1/2 pl-158px">
+    <div className="container mx-auto bg-[#21211e] flex flex-col md:flex-row px-4 md:px-0 space-y-10 md:space-y-0 py-8 md:py-0">
+      <div className="w-full md:w-1/2 md:pl-158px">
         <p className="text-zinc-400 text-2xl pb-6 Regular">User Interview</p>
         <p className="text-white text-xl Light" data-aos='fade-right' data-aos-duration='850'>
           For the research process, I decided to go to Kelly
@@ -28,7 +28,7 @@ export default function Page4() {
           our user.
         </p>
       </div>
-      <div className="w-1/2 pl-158px">
+      <div className="w-full md:w-1/2 md:pl-158px">
         <p className="text-zinc-400 text-2xl pb-6 Medium">Understanding</p>
         <p className="text-white text-xl Light" data-aos='fade-left' data-aos-duration='850'>
           The most important findings from this interview are:

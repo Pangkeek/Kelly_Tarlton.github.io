@@ -13,9 +13,9 @@ export default function Page7() {
 
   return (
     <div>
-      <div className="container mx-auto bg-[#21211e] pb-14 rounded-b-3xl">
-        <div className="flex">
-          <div className="w-1/2 pl-158px">
+      <div className="container mx-auto bg-[#21211e] pb-14 rounded-b-3xl px-4 md:px-0">
+        <div className="flex flex-col md:flex-row space-y-10 md:space-y-0">
+          <div className="w-full md:w-1/2 md:pl-158px">
             <p className="text-zinc-400 text-2xl pb-6 Regular">Solution</p>
             <p className="text-white text-xl Light" data-aos='fade-right' data-aos-duration='850'>
               This AR app then offer a solution of offering a<br />
@@ -32,7 +32,7 @@ export default function Page7() {
               career to the app.
             </p>
           </div>
-          <div className="w-1/2 pl-158px">
+          <div className="w-full md:w-1/2 md:pl-158px">
             <p className="text-zinc-400 text-2xl pb-6 Medium">
               Gap in the Market
             </p>
@@ -47,10 +47,10 @@ export default function Page7() {
             </p>
           </div>
         </div>
-        <div className='flex items-end justify-between'>
-            <img className='w-xdd object-cover h-full ml-bo' src={Img5} data-aos='fade-left' data-aos-duration='850'/>
-            <img className='w-xddd object-cover h-full ' src={Img4} data-aos='fade-left' data-aos-duration='850'/>
-            <img className='w-xdddd object-cover h-full mr-bo' src={Img3} data-aos='fade-left' data-aos-duration='850'/>
+        <div className='flex flex-col md:flex-row items-center md:items-end justify-between space-y-10 md:space-y-0 pt-10'>
+            <img className='w-2/3 md:w-xdd object-cover h-auto md:h-full md:ml-bo' src={Img5} data-aos='fade-left' data-aos-duration='850'/>
+            <img className='w-full md:w-xddd object-cover h-auto md:h-full ' src={Img4} data-aos='fade-left' data-aos-duration='850'/>
+            <img className='w-3/4 md:w-xdddd object-cover h-auto md:h-full md:mr-bo' src={Img3} data-aos='fade-left' data-aos-duration='850'/>
         </div>
       </div>
     </div>

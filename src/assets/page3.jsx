@@ -9,8 +9,8 @@ export default function Page3() {
   }, []);
 
   return (
-    <div className="container mx-auto bg-[#21211e] flex">
-      <div className="w-1/2 pl-158px">
+    <div className="container mx-auto bg-[#21211e] flex flex-col md:flex-row px-4 md:px-0 space-y-10 md:space-y-0 py-8 md:py-0">
+      <div className="w-full md:w-1/2 md:pl-158px">
         <p className="text-zinc-400 text-2xl pb-6 Regular">Context</p>
         <p className="text-white text-xl Light" data-aos='fade-right' data-aos-duration='850'>
           Kelly Tarlton's Life is founded by Kelvin Ewart
@@ -28,7 +28,7 @@ export default function Page3() {
           <br /> premises
         </p>
       </div>
-      <div className="w-1/2 pl-158px">
+      <div className="w-full md:w-1/2 md:pl-158px">
         <p className="text-zinc-400 text-2xl pb-6 Medium">Target Consumer</p>
         <p className="text-white text-xl Light" data-aos='fade-left' data-aos-duration='850'>
           On the official Kelly Tarlton's website, they started
@@ -45,7 +45,7 @@ export default function Page3() {
         <p className="text-white mt-6 text-xl Light" data-aos='fade-left' data-aos-duration='850' data-aos-delay='150'>
           As the target consumers are young, accessibility
           <br />
-          would be considered in this AR porject. High
+          would be considered in this AR project. High
           <br />
           contrasting colour, guides and easy to navigate-
           <br />

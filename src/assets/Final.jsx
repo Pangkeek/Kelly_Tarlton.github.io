@@ -14,7 +14,7 @@ import Copyright from './copyright';
 
 export default function Final() {
   return (
-    <div className="">
+    <div className="overflow-x-hidden w-full">
       <Navbar />
       <Intro />
       <Page1 />
@@ -42,7 +42,7 @@ export default function Final() {
         <div class="mx-auto w-5/6 border-t-2 border-zinc-600"></div>
       </section>
       <Page7 />
-      <section class="container mx-auto py-10 bg-[#ffffff]">
+      <section class="container mx-auto py-10 bg-[#21211e]">
         <div class="mx-auto w-5/6 border-t-2 border-zinc-600"></div>
       </section>
       <Outtro />

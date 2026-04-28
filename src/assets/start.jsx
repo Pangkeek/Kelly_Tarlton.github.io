@@ -10,7 +10,7 @@ export default function Start(){
 
     return (
         <div className='container mx-auto bg-[#21211e] rounded-t-3xl'>
-            <h1 className='text-center text-white text-7xl py-32 Medium'>Let's start Hunting!</h1>
+            <h1 className='text-center text-white text-5xl md:text-7xl py-16 md:py-32 Medium px-4'>Let's start Hunting!</h1>
         </div>
     )
 }

@@ -16,8 +16,8 @@ export default function Page1() {
   }, []);
 
   return (
-    <div className="container mx-auto relative overflow-hidden flex">
-      <div className="h-screen w-1/2 bg-[#21211e] flex flex-col	items-center justify-center z-40">
+    <div className="container mx-auto relative overflow-hidden flex flex-col lg:flex-row">
+      <div className="h-screen w-full lg:w-1/2 bg-[#21211e] flex flex-col	items-center justify-center z-40">
         <img
           className="size-96"
           src={Icon3}
@@ -25,16 +25,16 @@ export default function Page1() {
           data-aos="fade-right"
           data-aos-duration='1000'
         />
-        <h1 className="text-white text-7xl Medium" data-aos="fade-down" data-aos-duration='850'>
+        <h1 className="text-white text-5xl md:text-7xl text-center Medium px-4" data-aos="fade-down" data-aos-duration='850'>
           Kelly Tarlton's
           <br />
           Teasure Hunt
         </h1>
-        <p className="text-white text-xl mt-9" data-aos="fade-down" data-aos-duration='850'>
+        <p className="text-white text-lg md:text-xl mt-9 text-center px-4" data-aos="fade-down" data-aos-duration='850'>
           Let's Start Hunting Augmented Reality Sea Life!
         </p>
       </div>
-      <div className="h-screen w-1/2 flex items-center justify-center">
+      <div className="hidden lg:flex h-screen w-1/2 items-center justify-center">
         <img
           className="-rotate-60deg absolute left-580px -top-52 w-520px h-auto"
           src={Img19}
